@@ -1,11 +1,71 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+
+  /* Colors */
+  --primary-color: #0000FF;
+  --secondary-color: #BFBFFC;
+  --action-color: #5C5CE6;
+  --grey-color: #EAEAEA;
+  --white-color: #FFFFFF;
+  --black-color: #282828;
+
+  /* Typo */
+  --text-color: #000000;
+  --jakarta: 'Jakarta', sans-serif;
+  --jakarta-bold: 'Jakarta', sans-serif, bold;
+  --font-jakarta: 12px;
+  --font-h1: 48px;
+  --font-h2: 38px;
+  --font-h3: 28px;
+  --font-h4: 18px;
+  --font-text: 14px;
+  --font-bold-text: 14px;
+
+}
+
+.jakarta {
+  font-size: var(--font-jakarta);
+}
+
+h1,
+.h1 {
+  font-size: var(--font-h1);
+  font-family: var(--jakarta)
+}
+
+h2,
+.h2 {
+  font-size: var(--font-h2);
+  font-family: var(--jakarta)
+}
+
+h3,
+.h3 {
+  font-size: var(--font-h3);
+  font-family: var(--jakarta)
+}
+
+h4,
+.h4 {
+  font-size: var(--font-h4);
+  font-family: var(--jakarta)
+}
+
+.text {
+  font-size: var(--font-text);
+  font-family: var(--jakarta)
+}
+
+.bold-text {
+  font-size: var(--font-bold-text);
+  font-family: var(--jakarta)
+  font-weight: bold;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: #ffffff;
     --foreground: #ededed;
   }
 }
@@ -35,8 +95,8 @@ a {
   text-decoration: none;
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
   html {
-    color-scheme: dark;
+    color-scheme: light;
   }
 }
