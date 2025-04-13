@@ -1,0 +1,116 @@
+{
+  "hero": {
+    "title": "",
+    "description": ""
+  },
+  "services": {
+    "title": "On s'occupe du",
+    "maquettage": {
+      "title": "1. Maquettage 🎨",
+      "description": "Le maquettage est la première étape cruciale pour visualiser l'architecture et la structure de votre site. Il permet d'identifier et de résoudre les problèmes potentiels avant de passer au développement"
+    },
+    "developpement": {
+      "title": "2. Développement 💻",
+      "description": "Notre équipe de développeurs experts transforme les maquettes en sites web fonctionnels en utilisant les technologies les plus récentes. Chaque ligne de code est optimisée pour la performance et la sécurité"
+    },
+    "publication": {
+      "title": "3. Publication 🌐",
+      "description": "Une fois le développement terminé, nous procédons à la publication de votre site, en nous assurant que tout fonctionne parfaitement sur tous les appareils. Nous veillons à ce que votre lancement se déroule sans accroc"
+    },
+    "maintenance": {
+      "title": "4. Maintenance 🔧",
+      "description": "La maintenance continue est essentielle pour garantir que votre site reste sécurisé, à jour et performant. Notre équipe est toujours disponible pour effectuer des mises à jour, résoudre des problèmes et améliorer les fonctionnalités"
+    }
+  },
+  "projects": {
+    "title": "Les derniers rêves réalisés",
+    "projectsList": [
+      {
+        "imagePath": "/project-image.png",
+        "category": "E-commerce",
+        "title": "Boutique en ligne élégante",
+        "description": "Création d'une plateforme e-commerce moderne et intuitive pour une expérience utilisateur optimale."
+      },
+      {
+        "imagePath": "/project-image.png",
+        "category": "Portfolio",
+        "title": "Portfolio artistique",
+        "description": "Développement d'un site portfolio pour mettre en valeur les œuvres d'un artiste talentueux."
+      },
+      {
+        "imagePath": "/project-image.png",
+        "category": "Corporate",
+        "title": "Site vitrine d'entreprise",
+        "description": "Conception d'un site professionnel pour renforcer la présence en ligne d'une entreprise."
+      }
+    ]
+  },
+  "prices": {
+    "title": "Nos tarifs",
+    "pricesList": [
+      {
+        "name": "Standard",
+        "description": "Une prestation web",
+        "price": 600,
+        "subscription": 0,
+        "option1": "Prestation web",
+        "option2": "Maintenance",
+        "option3": "Plus",
+        "option4": "Plus"
+      },
+      {
+        "name": "Premium",
+        "description": "Une prestation web + maintenance",
+        "price": 700,
+        "subscription": 20,
+        "option1": "Prestation web",
+        "option2": "Maintenance",
+        "option3": "Plus",
+        "option4": "Plus"
+      },
+      {
+        "name": "All In",
+        "description": "Une prestation web + maintenance et plus",
+        "price": 800,
+        "subscription": 30,
+        "option1": "Prestation web",
+        "option2": "Maintenance",
+        "option3": "Plus",
+        "option4": "Plus"
+      }
+    ]
+  },
+  "faqs": {
+    "title": "FAQ",
+    "FaqsList": [
+      {
+        "question": "Combien de temps faut-il pour créer un site web ?",
+        "answer": "Le délai de création d'un site web dépend de sa complexité. En général, cela peut prendre entre 2 à 6 semaines."
+      },
+      {
+        "question": "Proposez-vous des services de référencement ?",
+        "answer": "Oui, nous proposons des services de référencement pour améliorer la visibilité de votre site sur les moteurs de recherche."
+      },
+      {
+        "question": "Puis-je mettre à jour mon site moi-même ?",
+        "answer": "Oui, nous vous formons à l'utilisation de votre site afin que vous puissiez effectuer des mises à jour facilement."
+      }
+    ]
+  },
+  
+  "contact": {
+    "title": "Nous contacter",
+    "imagePath": "/calendly.png",
+    "heading": "Demandez votre site web professionnel en quelques étapes",
+    "text": "Besoin d'accompagnement pour donner vie à votre présence en ligne ? Notre expertise en développement web transformera votre vision en un site performant et attractif.",
+    "step1": "Remplissez le formulaire de contact",
+    "step2": "Nous analysons vos besoins",
+    "step3": "Et votre projet web prend forme !",
+    "form": {
+      "name": "Nom",
+      "email": "Email",
+      "message": "Message",
+      "submit": "Envoyer"
+    }
+  }
+}
