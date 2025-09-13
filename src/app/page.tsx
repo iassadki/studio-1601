@@ -26,7 +26,7 @@ export default function Home() {
       {/* <Companys /> */}
       {/* <Resume /> */}
       {/* <Contact /> */}
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }
