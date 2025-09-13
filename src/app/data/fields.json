@@ -1,0 +1,322 @@
+{
+    "hero": {
+        "title": "Transformez votre rêve web",
+        "title_primary": "en réalité",
+        "imagePath": "/images/hero/hero-banner.png",
+        "name": "Gradient",
+        "description": "Nous créeons des expériences web uniques",
+        "description_primary": "sur mesure"
+    },
+    "presentation": {
+        "title": "Présentation",
+        "imagePath": "/images/presentation/ilias-round.png",
+        "name": "Ilias",
+        "surname": "Assadki",
+        "description": "Développeur Web et Logiciel"
+    },
+    "expertise": {
+        "title": "Mes domaines d'expertise",
+        "expertiseData": [
+            {
+                "title": "Développement web",
+                "imagePath": "/images/expertise/devicon-plain.svg",
+                "description": "Création d'une plateforme e-commerce moderne et intuitive pour une expérience utilisateur optimale."
+            },
+            {
+                "title": "UI/UX Design",
+                "imagePath": "/images/expertise/ux-ui-icon.svg",
+                "description": "Développement d'un site portfolio pour mettre en valeur les œuvres d'un artiste talentueux."
+            },
+            {
+                "title": "Gestion de BDD",
+                "imagePath": "/images/expertise/database-icon.svg",
+                "description": "Conception d'un site professionnel pour renforcer la présence en ligne d'une entreprise."
+            },
+            {
+                "title": "Développement d'applications",
+                "imagePath": "/images/expertise/mobile-icon.svg",
+                "description": "Création d'une plateforme e-commerce moderne et intuitive pour une expérience utilisateur optimale."
+            },
+            {
+                "title": "Conception UML",
+                "imagePath": "/images/expertise/uml-icon.svg",
+                "description": "Développement d'un site portfolio pour mettre en valeur les œuvres d'un artiste talentueux."
+            },
+            {
+                "title": "Webdesign",
+                "imagePath": "/images/expertise/webdesign-icon.svg",
+                "description": "Conception d'un site professionnel pour renforcer la présence en ligne d'une entreprise."
+            }
+        ]
+    },
+    "skills": {
+        "title": "Mes compétences",
+        "skillsCategories": [
+            {
+                "category": "Front-end",
+                "skills": [
+                    {
+                        "title": "HTML",
+                        "imagePath": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+                    },
+                    {
+                        "title": "CSS",
+                        "imagePath": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+                    },
+                    {
+                        "title": "JavaScript",
+                        "imagePath": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                    },
+                    {
+                        "title": "React",
+                        "imagePath": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+                    },
+                    {
+                        "title": "Next.js",
+                        "imagePath": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg"
+                    },
+                    {
+                        "title": "TypeScript",
+                        "imagePath": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
+                    }
+                ]
+            },
+            {
+                "category": "Back-end",
+                "skills": [
+                    {
+                        "title": "Node.js",
+                        "imagePath": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+                    },
+                    {
+                        "title": "Python",
+                        "imagePath": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+                    },
+                    {
+                        "title": "Java",
+                        "imagePath": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
+                    },
+                    {
+                        "title": "PHP",
+                        "imagePath": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg"
+                    }
+                ]
+            },
+            {
+                "category": "Bases de données",
+                "skills": [
+                    {
+                        "title": "MySQL",
+                        "imagePath": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
+                    },
+                    {
+                        "title": "PostgreSQL",
+                        "imagePath": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"
+                    },
+                    {
+                        "title": "MongoDB",
+                        "imagePath": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
+                    }
+                ]
+            },
+            {
+                "category": "Outils",
+                "skills": [
+                    {
+                        "title": "Git",
+                        "imagePath": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+                    },
+                    {
+                        "title": "Docker",
+                        "imagePath": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"
+                    },
+                    {
+                        "title": "Figma",
+                        "imagePath": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"
+                    }
+                ]
+            }
+        ]
+    },
+    "projects": {
+        "title": "Nos derniers rêves réalisés",
+        "projectsData": [
+            {
+                "title": "Intern Flow",
+                "category": "Application web",
+                "imagePath": "/images/projects/intern-flow.png",
+                "description": "Description du projet 1",
+                "link": "https://github.com/iassadki/intern-flow"
+            },
+            {
+                "title": "Planning Eplucheurs",
+                "category": "Application web",
+                "imagePath": "/images/projects/planning-eplucheurs.png",
+                "description": "Description du projet 1",
+                "link": "https://github.com/iassadki/planning-eplucheurs"
+            },
+            {
+                "title": "Exotic cars",
+                "category": "Application web",
+                "imagePath": "/images/projects/exotic-cars.png",
+                "description": "Description du projet 1",
+                "link": "https://github.com/iassadki/exotic-cars"
+            },
+            {
+                "title": "Itunes Seeker",
+                "category": "Application mobile",
+                "imagePath": "/images/projects/itunes-seeker.png",
+                "description": "Description du projet 1",
+                "link": "https://github.com/iassadki/itunes-seeker"
+            },
+            {
+                "title": "Business Card Generator",
+                "category": "Application web",
+                "imagePath": "/images/projects/business-card-generator.png",
+                "description": "Description du projet 1",
+                "link": "https://github.com/iassadki/business-card-generator"
+            },
+            {
+                "title": "Portal Asso",
+                "category": "Application web",
+                "imagePath": "/images/projects/portal-asso.png",
+                "description": "Description du projet 1",
+                "link": "https://github.com/iassadki/portal-asso"
+            },
+            {
+                "title": "Wheelchair IOT Radar",
+                "category": "Application mobile",
+                "imagePath": "/images/projects/wheelchair-radar.png",
+                "description": "Description du projet 1",
+                "link": "https://github.com/iassadki/wheelchair-radar"
+            },
+            {
+                "title": "School System",
+                "category": "Application web",
+                "imagePath": "/images/projects/school-system.png",
+                "description": "Description du projet 1",
+                "link": "https://github.com/iassadki/school-system"
+            },
+            {
+                "title": "TeamBrains",
+                "category": "Application web",
+                "imagePath": "/images/projects/team-brains.png",
+                "description": "Description du projet 1",
+                "link": "https://github.com/iassadki/TeamBrains"
+            },
+            {
+                "title": "Portfolio Ilias",
+                "category": "Application web",
+                "imagePath": "/images/projects/ia-logo.png",
+                "description": "Description du projet 1",
+                "link": "https://github.com/iassadki/my-portfolio"
+            },
+            {
+                "title": "Studio 1601",
+                "category": "Application web",
+                "imagePath": "/images/projects/studio-1601.png",
+                "description": "Description du projet 1",
+                "link": "https://github.com/iassadki/studio-1601"
+            }
+        ]
+    },
+    "companys": {
+        "title": "Entreprises avec lesquelles j'ai travaillé",
+        "companysData": [
+            {
+                "name": "Euro Services",
+                "imagePath": "/images/companys/euro-services.png"
+            },
+            {
+                "name": "Mairie d'Asnières",
+                "imagePath": "/images/companys/mairie-asnieres.png"
+            },
+            {
+                "name": "All In Appli",
+                "imagePath": "/images/companys/all-in-appli.png"
+            },
+            {
+                "name": "SMC",
+                "imagePath": "/images/companys/smc.png"
+            },
+            {
+                "name": "DGFIP",
+                "imagePath": "/images/companys/dgfip.png"
+            }
+        ]
+    },
+    "resume": {
+        "title": "Mon CV",
+        "preview": "Aperçu",
+        "cvLink": "/cv.pdf",
+        "description": "Mon CV est disponible et téléchargeable. N'hésitez pas à le consulter pour en savoir plus sur mon parcours et mes compétences en développement web."
+    },
+    "contact": {
+        "title": "Contactez-moi",
+        "placeHolder": "Entrons en contact",
+        "description": "Si vous avez un projet en tête ou si vous souhaitez discuter de vos besoins en développement web, n'hésitez pas à me contacter. Je suis là pour vous aider à concrétiser vos idées et à créer des solutions sur mesure.",
+        "placeHolderEmail": "Email",
+        "email": "ilias.assadki@gmail.com",
+        "placeHolderPhone": "Téléphone",
+        "phone": "+33 6 47 21 03 03",
+        "placeHolderLocation": "Localisation",
+        "location": "Paris, France",
+        "placeHolderAvailablity": "Disponibilités",
+        "availablity": "Lun - Ven, 9h - 18h",
+        "form": {
+            "name": "Nom",
+            "namePlaceholder": "Votre nom complet",
+            "email": "Email",
+            "emailPlaceholder": "votre.email@exemple.com",
+            "subject": "Sujet",
+            "subjectPlaceholder": "Le sujet de votre message",
+            "message": "Message",
+            "messagePlaceholder": "Décrivez votre projet ou votre demande...",
+            "submit": "Envoyer",
+            "successMessage": "Votre message a été envoyé avec succès ! Je vous répondrai dans les plus brefs délais.",
+            "errorMessage": "Une erreur s'est produite lors de l'envoi de votre message. Veuillez réessayer plus tard."
+        }
+    },
+    "pricings": {
+        "title": "Nos tarifs",
+        "plans": [
+            {
+                "name": "Standard",
+                "description": "Une prestation web standard",
+                "price": "à partir de 600€",
+                "color": "blue",
+                "features": [
+                    "Site vitrine",
+                    "3 à 5 pages",
+                    "Responsive",
+                    "Maintenance"
+                ]
+            },
+            {
+                "name": "Premium",
+                "description": "Une prestation web dynamique",
+                "price": "à partir de 900€",
+                "color": "blue",
+                "features": [
+                    "Site dynamique",
+                    "Base de données, formulaire",
+                    "Authentification",
+                    "Maintenance"
+                ]
+            },
+            {
+                "name": "All In",
+                "description": "Full options",
+                "price": "à partir de 1000€",
+                "color": "blue",
+                "features": [
+                    "Site dynamique complet",
+                    "API et intégration d'autre services",
+                    "Documentation utilisateur",
+                    "Tableau de bord administrateur",
+                    "Maintenance"
+                ]
+            }
+        ]
+    }
+}
