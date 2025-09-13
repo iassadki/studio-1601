@@ -22,13 +22,13 @@ const ButtonSecondary: React.FC<ButtonSecondaryProps> = ({
     id,
 }) => {
     const baseClasses = `
-    bg-grey text-primary
+    bg-white text-primary
     px-7 py-3 
     rounded-full
     border-1
     border-primary
     text-sm font-bold
-    hover:bg-grey 
+    hover:bg-white 
     hover:text-primary
     focus:outline-none 
     focus:ring-2 

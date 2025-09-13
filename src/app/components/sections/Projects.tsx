@@ -19,7 +19,7 @@ const Projects: React.FC = () => {
     }, [projects.projectsData, activeFilter]);
 
     return (
-        <section id="projects" className="w-full py-16 bg-gray-50">
+        <section id="projects" className="w-full py-16 bg-white">
             {/* Titre de la section */}
             <h2 className="text-3xl font-bold text-center text-black mb-8">
                 {projects.title}

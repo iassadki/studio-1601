@@ -1,10 +1,10 @@
 
 import Header from "./components/layout/Header";
 import Hero from "./components/sections/Hero";
-import Presentation from "./components/sections/Presentation";
 import Expertise from "./components/sections/Expertise";
 import Services from "./components/sections/Services";
 import Projects from "./components/sections/Projects";
+import Method from "./components/sections/Method";
 import Pricings from "./components/sections/Pricings";
 // import Companys from "./components/sections/Companys";
 // import Resume from "./components/sections/Resume";
@@ -21,6 +21,7 @@ export default function Home() {
       {/* <Presentation /> */}
       <Expertise />
       <Services />
+      <Method />
       <Projects />
       <Pricings />
       {/* <Companys /> */}

@@ -31,7 +31,7 @@ const Hero: React.FC = () => {
                 {/* Button container */}
                 <div className="absolute top-[73%] left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex gap-4">
                     <ButtonPrimary href="#projects">Voir mes projets</ButtonPrimary>
-                    <ButtonSecondary href="#contact">Me contacter</ButtonSecondary>
+                    <ButtonSecondary href="#contact">Prendre un rendez vous</ButtonSecondary>
                 </div>
             </div>
         </section>

@@ -63,14 +63,14 @@ const PricingPage = () => {
                 </div>
 
                 {/* Bottom CTA */}
-                <div className="text-center mt-16">
+                {/* <div className="text-center mt-16">
                     <p className="text-lg text-gray-600 mb-6">
                         Vous avez des besoins spécifiques ?
                     </p>
                     <button className="bg-gray-900 hover:bg-gray-800 text-white font-semibold py-4 px-8 rounded-xl transition-colors duration-200">
                         Contactez-nous pour un devis personnalisé
                     </button>
-                </div>
+                </div> */}
             </div>
         </div>
     );

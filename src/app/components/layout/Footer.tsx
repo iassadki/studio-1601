@@ -10,11 +10,11 @@ const Footer = () => {
                     {/* Logo et description */}
                     <div className="col-span-1 md:col-span-2">
                         <div className="flex items-center mb-4">
-                            <span className="text-2xl font-bold text-white">IA</span>
-                            <span className="ml-2 text-lg">Ilias Assadki</span>
+                            <img src="/images/header/studio-1601-logo.png" alt="Studio 1601 Logo" width={50} height={50} className="object-contain mr-2" />
+                            <span className="text-2xl ml-2 font-bold text-white">Studio 1601</span>
                         </div>
                         <p className="text-gray-100 mb-4 max-w-md">
-                            Développeur NextJS/NodeJS passionné par la création d&apos;applications web modernes et performantes.
+                            Studio 1601 vous accompagne dans la réalisation de vos solutions web et mobiles sur-mesure de rêve.
                         </p>
                         <div className="flex space-x-4">
                             {/* Réseaux sociaux */}
@@ -54,8 +54,18 @@ const Footer = () => {
                         <h3 className="text-lg font-semibold mb-4">Navigation</h3>
                         <ul className="space-y-2">
                             <li>
-                                <Link href="#about" className="text-gray-100 hover:text-white transition-colors">
-                                    À propos
+                                <Link href="#presentation" className="text-gray-100 hover:text-white transition-colors">
+                                    Présentation
+                                </Link>
+                            </li>
+                            <li>
+                                <Link href="#expertise" className="text-gray-100 hover:text-white transition-colors">
+                                    Expertise
+                                </Link>
+                            </li>
+                            <li>
+                                <Link href="#services" className="text-gray-100 hover:text-white transition-colors">
+                                    Compétences
                                 </Link>
                             </li>
                             <li>
@@ -64,14 +74,13 @@ const Footer = () => {
                                 </Link>
                             </li>
                             <li>
-                                <Link href="#contact" className="text-gray-100 hover:text-white transition-colors">
-                                    Contact
+                                <Link href="#method" className="text-gray-100 hover:text-white transition-colors">
+                                    Méthode
                                 </Link>
                             </li>
                             <li>
-                                <Link href="/resume/CV_Ilias_ASSADKI.pdf"
-                                    target="_blank" className="text-gray-100 hover:text-white transition-colors">
-                                    CV
+                                <Link href="#contact" className="text-gray-100 hover:text-white transition-colors">
+                                    Contact
                                 </Link>
                             </li>
                         </ul>
@@ -107,15 +116,15 @@ const Footer = () => {
                 <div className="mt-8 pt-8 border-t border-gray-200">
                     <div className="flex flex-col md:flex-row justify-between items-center">
                         <p className="text-gray-100 text-sm">
-                            © {currentYear} Ilias Assadki. Tous droits réservés.
+                            © {currentYear} Studio 1601. Tous droits réservés.
                         </p>
                         <div className="mt-4 md:mt-0 flex space-x-6">
-                            {/* <Link href="/privacy" className="text-gray-100 hover:text-white text-sm transition-colors">
+                            <Link href="/privacy" className="text-gray-100 hover:text-white text-sm transition-colors">
                                 Politique de confidentialité
                             </Link>
                             <Link href="/terms" className="text-gray-100 hover:text-white text-sm transition-colors">
                                 Conditions d&apos;utilisation
-                            </Link> */}
+                            </Link>
                         </div>
                     </div>
                 </div>

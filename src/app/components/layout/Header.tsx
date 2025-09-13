@@ -16,10 +16,9 @@ const Header = () => {
     const links = [
         { href: "#presentation", label: "Présentation", id: "presentation" },
         { href: "#expertise", label: "Expertise", id: "expertise" },
-        { href: "#skills", label: "Compétences", id: "skills" },
+        { href: "#services", label: "Services", id: "services" },
+        { href: "#method", label: "Méthode", id: "method" },
         { href: "#projects", label: "Projets", id: "projects" },
-        { href: "#experiences", label: "Experiences", id: "experiences" },
-        { href: "#resume", label: "CV", id: "resume" },
     ];
 
     return (
@@ -58,7 +57,7 @@ const Header = () => {
                 {/* Contact Button (Desktop) */}
                 <div className="hidden md:block">
                     <Link href="#contact">
-                        <ButtonPrimary>Me contacter</ButtonPrimary>
+                        <ButtonPrimary>Prendre un rendez vous</ButtonPrimary>
                     </Link>
                 </div>
 
@@ -91,7 +90,7 @@ const Header = () => {
                     ))}
                     <div className="mt-2">
                         <Link href="#contact" onClick={() => setIsOpen(false)}>
-                            <ButtonPrimary>Me contacter</ButtonPrimary>
+                            <ButtonPrimary>Prendre un rendez vous</ButtonPrimary>
                         </Link>
                     </div>
                 </div>
