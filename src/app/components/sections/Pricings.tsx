@@ -58,9 +58,6 @@ const PricingPage = () => {
                                 </ButtonPrimary>
                             </div>
 
-                            {/* Decorative elements */}
-                            <div className="absolute -top-2 -right-2 w-4 h-4 bg-blue-200 rounded-full opacity-60"></div>
-                            <div className="absolute -bottom-2 -left-2 w-6 h-6 bg-blue-100 rounded-full opacity-40"></div>
                         </div>
                     ))}
                 </div>
