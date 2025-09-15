@@ -18,6 +18,10 @@ const Projects: React.FC = () => {
         return projects.projectsData.filter(project => project.category === activeFilter);
     }, [projects.projectsData, activeFilter]);
 
+    // Gestion du nombre de projets affichés et du bouton "Voir plus"
+    const [showAll, setShowAll] = useState(false);
+    const displayProjects = showAll ? filteredProjects : filteredProjects.slice(0, 3);
+
     return (
         <section id="projects" className="w-full py-16 bg-white">
             {/* Titre de la section */}
@@ -31,7 +35,7 @@ const Projects: React.FC = () => {
                     {filters.map((filter) => (
                         <button
                             key={filter}
-                            onClick={() => setActiveFilter(filter)}
+                            onClick={() => { setActiveFilter(filter); setShowAll(false); }}
                             className={`px-6 py-2 rounded-full font-medium transition-all duration-300 cursor-pointer hover:cursor-pointer ${
                                 activeFilter === filter
                                     ? 'bg-primary text-white shadow-lg hover:bg-primary-600 hover:shadow-xl'
@@ -57,8 +61,9 @@ const Projects: React.FC = () => {
             {/* Grid des projets */}
             <div className="max-w-7xl mx-auto px-8">
                 {filteredProjects.length > 0 ? (
+                    <>
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                        {filteredProjects.map((item, index) => (
+                        {displayProjects.map((item, index) => (
                             <div
                                 key={`${activeFilter}-${index}`}
                                 className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 transform hover:scale-105 animate-fadeIn"
@@ -113,6 +118,26 @@ const Projects: React.FC = () => {
                         </div>
                     ))}
                     </div>
+                    {filteredProjects.length > 3 && (
+                        <div className="flex justify-center mt-8">
+                            {!showAll ? (
+                                <button
+                                    className="px-6 py-3 rounded-full bg-primary text-white font-semibold shadow-lg hover:bg-primary-700 transition-all duration-300 cursor-pointer"
+                                    onClick={() => setShowAll(true)}
+                                >
+                                    Voir plus
+                                </button>
+                            ) : (
+                                <button
+                                    className="px-6 py-3 rounded-full bg-gray-200 text-primary font-semibold shadow-lg hover:bg-gray-300 transition-all duration-300 cursor-pointer"
+                                    onClick={() => setShowAll(false)}
+                                >
+                                    Voir moins
+                                </button>
+                            )}
+                        </div>
+                    )}
+                    </>
                 ) : (
                     <div className="text-center py-12">
                         <p className="text-gray-600 text-lg">
