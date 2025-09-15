@@ -15,7 +15,7 @@
         "description": "Développeur Web et Logiciel"
     },
     "expertise": {
-        "title": "Mes domaines d'expertise",
+        "title": "On s'occupe du",
         "expertiseData": [
             {
                 "title": "Développement web",
@@ -149,13 +149,6 @@
                 "link": "https://github.com/iassadki/intern-flow"
             },
             {
-                "title": "Planning Eplucheurs",
-                "category": "Application web",
-                "imagePath": "/images/projects/planning-eplucheurs.png",
-                "description": "Description du projet 1",
-                "link": "https://github.com/iassadki/planning-eplucheurs"
-            },
-            {
                 "title": "Exotic cars",
                 "category": "Application web",
                 "imagePath": "/images/projects/exotic-cars.png",
@@ -168,13 +161,6 @@
                 "imagePath": "/images/projects/itunes-seeker.png",
                 "description": "Description du projet 1",
                 "link": "https://github.com/iassadki/itunes-seeker"
-            },
-            {
-                "title": "Business Card Generator",
-                "category": "Application web",
-                "imagePath": "/images/projects/business-card-generator.png",
-                "description": "Description du projet 1",
-                "link": "https://github.com/iassadki/business-card-generator"
             },
             {
                 "title": "Portal Asso",
@@ -210,13 +196,6 @@
                 "imagePath": "/images/projects/ia-logo.png",
                 "description": "Description du projet 1",
                 "link": "https://github.com/iassadki/my-portfolio"
-            },
-            {
-                "title": "Studio 1601",
-                "category": "Application web",
-                "imagePath": "/images/projects/studio-1601.png",
-                "description": "Description du projet 1",
-                "link": "https://github.com/iassadki/studio-1601"
             }
         ]
     },

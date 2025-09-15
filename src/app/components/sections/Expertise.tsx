@@ -57,7 +57,7 @@ const Expertise: React.FC = () => {
                             <div className="relative w-full max-w-lg mx-auto">
                                 <div className="bg-gradient-to-br from-indigo-100 to-purple-100 rounded-3xl p-12 shadow-lg">
                                     {/* Simple geometric illustration */}
-                                    <div className="space-y-8">
+                                    <div className="space-y-54">
                                         {/* Header with circles */}
                                         <div className="flex justify-center space-x-4">
                                             <div className="w-4 h-4 bg-red-400 rounded-full"></div>
@@ -70,13 +70,13 @@ const Expertise: React.FC = () => {
                                             <div className="space-y-4">
                                                 {/* Navigation bar */}
                                                 <div className="flex space-x-2">
-                                                    <div className="w-16 h-2 bg-indigo-300 rounded"></div>
+                                                    <div className="w-16 h-2 bg-secondary rounded"></div>
                                                     <div className="w-12 h-2 bg-gray-300 rounded"></div>
                                                     <div className="w-14 h-2 bg-gray-300 rounded"></div>
                                                 </div>
 
                                                 {/* Hero section */}
-                                                <div className="w-full h-16 bg-gradient-to-r from-indigo-400 to-purple-500 rounded-lg"></div>
+                                                <div className="w-full h-16 bg-gradient-to-r from-secondary to-primary rounded-lg"></div>
 
                                                 {/* Content blocks */}
                                                 <div className="grid grid-cols-2 gap-3">
@@ -94,9 +94,9 @@ const Expertise: React.FC = () => {
 
                                         {/* Bottom elements */}
                                         <div className="flex justify-center space-x-6">
-                                            <div className="w-8 h-8 bg-indigo-500 rounded-lg shadow-sm"></div>
-                                            <div className="w-8 h-8 bg-purple-500 rounded-lg shadow-sm"></div>
-                                            <div className="w-8 h-8 bg-pink-500 rounded-lg shadow-sm"></div>
+                                            <div className="w-8 h-8 bg-primary rounded-lg shadow-sm"></div>
+                                            <div className="w-8 h-8 bg-action rounded-lg shadow-sm"></div>
+                                            <div className="w-8 h-8 bg-secondary rounded-lg shadow-sm"></div>
                                         </div>
                                     </div>
                                 </div>
