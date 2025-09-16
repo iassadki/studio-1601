@@ -2,7 +2,7 @@
 import fields from '@/app/data/fields.json';
 import Image from "next/image";
 import { Check } from 'lucide-react';
-// import ButtonPrimary from "@/app/components/ui/ButtonPrimary";
+import ButtonPrimary from "@/app/components/ui/ButtonPrimary";
 
 
 const Contact: React.FC = () => {
@@ -33,16 +33,71 @@ const Contact: React.FC = () => {
                             </div>
                         </div>
                     </div>
-                    {/* Image à droite */}
+                    {/* Mini formulaire à droite */}
                     <div className="flex justify-center">
-                        <div className="relative w-full max-w-sm h-100">
-                            <Image
-                                src={contact.imagePath}
-                                alt={contact.title}
-                                fill
-                                className="rounded-lg shadow-lg object-cover"
-                            />
-                        </div>
+                        <form className="w-full max-w-sm bg-white rounded-lg shadow-lg p-8 space-y-6">
+                            <div>
+                                <label htmlFor="firstname" className="block text-sm font-medium text-gray-700 mb-1">Prénom</label>
+                                <input
+                                    type="text"
+                                    id="firstname"
+                                    name="firstname"
+                                    className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary"
+                                    placeholder="Votre prénom"
+                                    required
+                                />
+                            </div>
+                            <div>
+                                <label htmlFor="lastname" className="block text-sm font-medium text-gray-700 mb-1">Nom</label>
+                                <input
+                                    type="text"
+                                    id="lastname"
+                                    name="lastname"
+                                    className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary"
+                                    placeholder="Votre nom"
+                                    required
+                                />
+                            </div>
+                            <div>
+                                <label htmlFor="requestType" className="block text-sm font-medium text-gray-700 mb-1">Type de demande</label>
+                                <select
+                                    id="requestType"
+                                    name="requestType"
+                                    className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary"
+                                    required
+                                >
+                                    <option value="">Sélectionnez une option</option>
+                                    <option value="infos">Demande d&apos;informations</option>
+                                    <option value="devis">Demande de devis</option>
+                                    <option value="autre">Autre</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-1">Email</label>
+                                <input
+                                    type="email"
+                                    id="email"
+                                    name="email"
+                                    className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary"
+                                    placeholder="Votre email"
+                                    required
+                                />
+                            </div>
+                            <div>
+                                <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-1">Message</label>
+                                <textarea
+                                    id="message"
+                                    name="message"
+                                    rows={4}
+                                    className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary"
+                                    placeholder="Votre message..."
+                                    required
+                                />
+                            </div>
+                            <ButtonPrimary type="submit" className="w-full">
+                                Envoyer
+                            </ButtonPrimary>
+                        </form>
                     </div>
                 </div>
             </div>
